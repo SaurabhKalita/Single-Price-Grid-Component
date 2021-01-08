@@ -1,0 +1,75 @@
+span {
+  font-size: 32px;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+}
+
+.card {
+  width: 50%;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+  margin-top: 8%;
+}
+
+.heading {
+  color: hsl(179, 62%, 43%);
+  padding: 4%;
+  padding-bottom: 3%;
+
+}
+
+.sub-heading {
+  color: hsl(71, 73%, 54%);
+  padding: 4%;
+  padding-top: 0;
+  padding-bottom: 1%;
+}
+
+.description {
+  color: hsl(218, 22%, 67%);
+  padding: 0 14% 4% 4%;
+}
+
+.subscription {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.why-us {
+  background-color: #01c5c4;
+}
+
+.col-lg-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.subs-heading {
+  color: #fff;
+  font-size: 22px;
+  padding: 8%;
+  padding-bottom: 3%;
+
+}
+
+.subs-description {
+  color: #fff;
+  padding-top: 0;
+  padding: 8%;
+  padding-bottom: 0;
+}
+
+.btn {
+  width:70%;
+  margin:8%;
+  margin-top:0;
+  background-color:hsl(71, 73%, 54%);
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width:900px) {
+  .card {
+    margin-top: 4%;
+  }
+}
